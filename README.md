@@ -71,3 +71,31 @@ La API estará disponible en: `http://localhost:3000`
 ├── README.md
 ├── REQUERIMIENTOS.md
 └── DISENO.md
+
+-----------------------------------------------Gonza-------------------------------------------------
+## Endpoints principales
+
+- `POST /api/auth/register` - Registro de usuarios
+- `POST /api/auth/login` - Inicio de sesión
+- `GET /api/appointments` - Consultar citas
+- `POST /api/appointments` - Crear nueva cita
+- `PUT /api/appointments/:id` - Modificar cita
+- `DELETE /api/appointments/:id` - Cancelar cita
+
+## Reglas de negocio
+
+- Horario de atención: 08:00 - 20:00, todos los días
+- Duración por servicio: 1 hora
+- Capacidad: 3 barberos simultáneos
+- Cancelaciones permitidas hasta 2 horas antes
+
+## Contribución
+
+Este proyecto utiliza Gitflow:
+- Rama principal: `main`
+- Rama de desarrollo: `develop`  
+- Features: `feature/gestion-de-reservas-online`
+
+## Licencia
+
+MIT License
