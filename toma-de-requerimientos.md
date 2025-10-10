@@ -23,3 +23,83 @@ Capacidad: 3 barberos, cada uno con la misma disponibilidad.
 
 
 Canales actuales: Agenda manual (llamadas/WhatsApp) — propenso a errores y sobreagendamiento.
+
+## Usuarios y roles 
+- Cliente: crea cuenta, inicia sesión, ver disponibilidad, agenda/reagenda/cancela, recibe notificaciones.
+
+
+Barbero: ve su agenda diaria/semanal, marca asistencia/estado, bloquea tiempos (descanso/ausencia).
+
+
+Administrador: configura horarios globales y por barbero, gestiona servicios y precios, ve métricas básicas, administra usuarios.
+
+## Funcionalidades
+
+-Gestión de cuentas
+Registro e inicio de sesión (email + contraseña).
+
+
+Perfil básico de cliente (nombre, teléfono).
+
+
+Agenda y reservas
+Calendario por barbero y vista “todos”.
+
+
+Bloques de tiempo de 1 hora; rango 08:00–20:00.
+
+
+Evitar doble reserva: un bloque puede estar ocupado por un solo cliente por barbero.
+
+
+Selección de barbero o “cualquiera” (asigna automáticamente el primer barbero disponible).
+
+
+Confirmación de reserva y número/ID de la cita.
+
+
+Reagendar/cancelar por parte del cliente (con regla de mínima antelación, p. ej. 2 horas — confirmar).
+
+
+Notificaciones
+Confirmación inmediata (in-app y email).
+
+
+Recordatorio automático (por ejemplo, 24 h y 2 h antes).
+
+
+Panel interno
+Vista diaria/semanal por barbero.
+
+
+Bloqueo manual de slots (descanso/ausencia).
+
+
+Listado del día con estado (Pendiente, Confirmada, Completada, No asistió).
+
+## Requisitos legales y normativos
+-Cumplimiento de la Ley de Protección de Datos Personales (según normativa local).
+
+
+Solicitud de consentimiento explícito para el uso de datos de contacto.
+
+
+Almacenamiento seguro de datos personales en servidores certificados.
+
+
+Notificación al usuario en caso de incidentes de seguridad que comprometan su información
+
+## Reglas de negocio 
+- Un bloque de 1 hora reservado por un cliente/barbero no puede ser asignado a otro hasta que sea cancelado.
+
+
+La barbería funciona entre 08:00–20:00 con cortes de 1 h.
+
+
+3 barberos, máximo 3 citas en paralelo.
+
+
+Cancelaciones: deben hacerse al menos 2 h antes.
+
+
+Tipos de pago: efectivo y transferencia (por ahora fuera del MVP, pero considerado en reglas).
