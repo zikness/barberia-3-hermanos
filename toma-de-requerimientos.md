@@ -185,3 +185,77 @@
  - Acordar diseño de pantallas (wireframes rápidos).
 
  - Definir ambiente de despliegue (hosting/domino/SSL).
+
+## Mantenimiento y soporte
+ - Actualizaciones trimestrales para mejoras y parches de seguridad.
+
+ - Canales de soporte para clientes (WhatsApp o formulario web).
+
+ - Capacitación inicial a barberos y administrador en uso de la plataforma.
+
+## Propuesta formal y cronograma de trabajo (API-only)
+ # Hitos tentativos:
+ - Workshop inicial y validación de reglas – Semana 1 
+
+ - Diseño de base de datos y API – Semana 2
+
+ - Desarrollo backend MVP – Semanas 3–4
+
+ - Desarrollo frontend básico – Semana 5
+
+ - Pruebas internas y entrega en entorno de prueba – Semana 6
+
+ - Ajustes y despliegue – Semana 7
+
+## Criterios de aceptación y garantías
+ - Reserva de hora solo en bloques disponibles.
+
+ - No se permiten choques de horarios.
+
+ - Cliente recibe confirmación inmediata.
+
+ - Barbero ve su agenda diaria.
+
+ - Corrección de errores críticos durante 30 días posteriores a la entrega.
+
+## Soporte y mantenimiento 
+ -Contrato mensual opcional.
+
+ -Modalidad: soporte remoto y corrección de errores.
+
+ -Si es error de software: corrección incluida.
+
+ -Nuevas funcionalidades se cotizan aparte.
+
+## Definición del alcance y presupuesto
+ - Alcance inicial: API + front básico para agenda de horas.
+
+ - Presupuesto fijo recomendado.
+
+# Desglose (ejemplo):
+ - Planificación y workshop: 15%
+
+ - Diseño de datos y esquemas: 20%
+
+ - Desarrollo backend (API): 30%
+
+ - Desarrollo frontend (agenda y panel): 20%
+
+ - Pruebas y despliegue: 15%
+
+ - Total: 100%
+
+# Formas de pago propuestas:
+
+ - 30% a la firma (aceptación del proyecto).
+
+ - 40% entrega MVP en entorno de prueba.
+
+ - 30% entrega final y aceptación.
+
+# Observaciones:
+ - Precio cubre alcance descrito (API + front MVP).
+
+ - Alternativa T&M bajo demanda.
+
+ - Estimación válida por 30 días.
