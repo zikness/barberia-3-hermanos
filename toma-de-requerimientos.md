@@ -141,3 +141,47 @@
 
 ## Integraciones (futuro/MVP)
  - Email/WhatsApp para recordatorios.
+
+## Reportes básicos (interno)
+ - Citas por día/semana/mes.
+
+ - Ocupación por barbero.
+
+ - No-shows y cancelaciones.
+
+## Criterios de aceptación (MVP)
+ - Agendar: un cliente autenticado puede reservar una hora disponible con un barbero específico o cualquiera, y recibe confirmación inmediata.
+
+ - Integridad de agenda: no se permiten dos reservas para el mismo barbero en el mismo bloque.
+
+ - Reprogramar/cancelar: el cliente puede hacerlo dentro de las reglas (p. ej., 2 h antes).
+
+ - Panel staff: cada barbero ve su agenda del día; el administrador ve todas.
+
+ - Notificaciones: se envía confirmación y recordatorios básicos, se envía la notificación, 2 días antes de la cita y el día de aquella, 3 horas antes de la cita..
+
+## Suposiciones y dependencias
+ - Todos los servicios duran 1 h (para MVP).
+
+ - Tres barberos con disponibilidad homogénea.
+
+ - La barbería mantiene horario 08:00–20:00 todos los días (confirmar feriados).
+
+ - Envío de emails operativo (servicio SMTP o tercero).
+
+## Fuera de alcance (MVP)
+ - Pagos en línea, propinas, fidelización/puntos.
+
+ - Precios/servicios con distintas duraciones.
+
+ - Informes avanzados y contabilidad.
+
+ - App móvil nativa.
+
+## Próximos pasos
+
+ - Confirmar si hay distintos servicios/duraciones para la siguiente iteración.
+
+ - Acordar diseño de pantallas (wireframes rápidos).
+
+ - Definir ambiente de despliegue (hosting/domino/SSL).
